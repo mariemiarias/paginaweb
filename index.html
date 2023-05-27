@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cambio de colores</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container1">
+        <div class="Presentado">
+            <img class="img" id="btn-colores" src="imagenes/paleta.png">
+            <h3>Da click en la imagen</h3>
+            <i> <b><h4>Presentado por:</h4>
+			<h5>Alvaro Contreras<br>Jessica Bahamón<br>Marisol Arias<br>Yamir Palacios<br>Julián Calambas</b></i></h5>
+        </div>
+        <div class="Titulo">
+            <h1 class="title">CAMBIO DE COLORES</h1>
+            <h2>Escribe tu mensaje: </h2> <br>
+            <textarea id="mensaje" rows="5" cols="40"></textarea>
+        </div>
+        <div>
+            <button class="Enviar" value="Enviar mensaje" onclick="leeTexto()"> Enviar </button>
+            <button class="Eliminar" value="Borrar" onclick="borrarTexto()"> Borrar </button>
+        </div>
+    </div>
+    <div class="container5">
+        <div class="container2">
+            <h4 class="c2">COLOR DE FONDO</h4>
+            <button id="Verde" value="green" onclick="changeColorBtn1()"> Verde </button>
+            <button id="Azul" value="blue" onclick="changeColorBtn2()"> Azul </button>
+            <button id="Rosado" value="pink" onclick="changeColorBtn3()"> Rosado </button>
+            <button id="Rojo" value="red" onclick="changeColorBtn4()"> Rojo </button>
+            <button id="Marron" value="brown" onclick="changeColorBtn6()"> Marron </button>
+            <button id="Naranja" value="orange" onclick="changeColorBtn7()"> Naranja </button>
+            <button id="Morado" value="purple" onclick="changeColorBtn8()">  Morado </button>
+            <button id="Oliva" value="olive" onclick="changeColorBtn9()"> Oliva </button>
+            <button id="Negro" value="black" onclick="changeColorBtn10()"> Negro </button>
+            <button id="Fucsia" value="fuchsia" onclick="changeColorBtn11()"> Fucsia </button>
+            <button id="Cyan" value="cyan" onclick="changeColorBtn12()"> Cyan </button>
+            <button id="Amarillo" value="yellow" onclick="changeColorBtn13()"> Amarillo </button>
+            <button id="Borrar" value="default" onclick="changeColorBtn5()"> BORRAR </button>
+        </div>
+        <div class="container3">
+            <h2 class="title">DISFRUTA CAMBIANDO COLORES</h2>
+            <div id="respuesta"></div>
+        </div>
+        <div class="container4">
+            <h4 class="c4">COLOR DE LETRAS</h4>
+            <button id="LetraVerde" value="green" onclick="changeColorTxt1()"> Verde </button>
+            <button id="LetraRojo" value="red" onclick="changeColorTxt2()"> Rojo </button>
+            <button id="LetraGris" value="Gray" onclick="changeColorTxt3()"> Gris </button>
+            <button id="LetraMarron" value="Maroon" onclick="changeColorTxt4()"> Marron </button>
+            <button id="LetraLima" value="Lime" onclick="changeColorTxt5()"> Lima </button>
+            <button id="LetraTurquesa" value="Teal" onclick="changeColorTxt6()"> Turquesa </button>
+            <button id="LetraFucsia" value="Fuchsia" onclick="changeColorTxt7()"> Fucsia </button>
+            <button id="LetraPurpura" value="Purple" onclick="changeColorTxt8()"> Purpura </button>
+            <button id="LetraSalmon" value="Salmon" onclick="changeColorTxt9()"> Salmon </button>
+            <button id="LetraSoscuro" value="DarkSalmon" onclick="changeColorTxt10()"> Salmon Oscuro </button>
+            <button id="LetraRindio" value="IndianRed" onclick="changeColorTxt11()"> Rojo Indio </button>
+            <button id="LetraLino" value="Linen" onclick="changeColorTxt12()"> Lino </button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
