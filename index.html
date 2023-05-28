@@ -10,23 +10,33 @@
 <!–– ingresar imagen y datos de las personas que realizamos el trabajo ––>
 
 <body>
-    <div class="container1">
-        <div class="Presentado">
-            <img class="img" id="btn-colores" src="imagenes/paleta.png">
-            <h3>Da click en la imagen</h3>
-            <i> <b><h4>Presentado por:</h4>
-			<h5>Alvaro Contreras<br>Jessica Bahamón<br>Marisol Arias<br>Yamir Palacios<br>Julián Calambas</b></i></h5>
-        </div>
-        <div class="Titulo">
-            <h1 class="title">CAMBIO DE COLORES</h1>
-            <h2>Escribe tu mensaje: </h2> <br>
-            <textarea id="mensaje" rows="5" cols="40"></textarea>
-        </div>
-        <div>
-            <button class="Enviar" value="Enviar mensaje" onclick="leeTexto()"> Enviar </button>
-            <button class="Eliminar" value="Borrar" onclick="borrarTexto()"> Borrar </button>
-        </div>
-    </div>
+    <!-- Inicio del Header -->
+	<header class="header">
+		<div class="header-img">
+			<img class="img-item" id="btn-colores" src="imagenes/paleta.png">	
+		</div>
+		<div class="header-messeger">
+			<p>Escribe tu mensaje</p>
+		</div>
+	</header>
+	<!-- Fin del header -->
+
+	<!--  -->
+	<section class="section-container">
+		<div class="container-title">
+			
+			<div class="title-text_area">
+				<textarea id="mensaje" rows="20" cols="80" placeholder="Ingresa tu mensaje"></textarea>
+			</div>
+		</div>
+	</section>
+
+	<div class="button-submit">
+		<div class="submit-send-delete">
+	  		<button class="send" value="Enviar mensaje" onclick="leeTexto()"> Enviar </button> 
+	  		<button class="delete" value="Borrar" onclick="borrarTexto()"> Borrar </button> 
+  		</div>
+	</div>
 
     <!–– Como lo camos los botones y donde se raliza el cambio del fondo ––>
 
