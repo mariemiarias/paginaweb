@@ -1,4 +1,4 @@
-// Cambio del color de fondo con imagen 
+// Cambio del color de fondo con imagen realizado por marisol
 const $BTN = document.getElementById("btn-colores");
 let i = 0;
 arrayColores = ["#62372E", "#87CEEB", "#faebd7", "#a52a2a", "#008b8b", "#bdb76b", "#ff8c00", "#8fbc8f", "#daa520", "#f0fff0"];
