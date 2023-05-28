@@ -1,7 +1,8 @@
+/*Cambio del color fondo de la pagina*/
 body {
     background: rgba(122, 135, 253, 0.751);
 }
-
+/*pocision de la imagen*/
 .img {
     position: relative;
     margin-top: 10px;
