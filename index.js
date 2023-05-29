@@ -1,3 +1,15 @@
+// DOM para que el titulo de la pagina...By Juliana
+
+function titleDOM () {  
+  var titlePage= document.createElement('p');
+  var TextNode = document.createTextNode('Escribe tu mensaje');
+  titlePage.appendChild(TextNode);
+  titlePage.setAttribute('aling','center');
+  document.getElementById('header-messeger').appendChild(titlePage);
+}
+titleDOM();
+
+
 // Cambio del color de fondo con imagen realizado por marisol
 const $BTN = document.getElementById("btn-colores");
 let i = 0;
@@ -8,6 +20,10 @@ $BTN.addEventListener("click", (e) => {
     i++;
     if (i === 10) i = 0;
 });
+
+
+
+
 
 // Botones
 let btn_Verde = document.getElementById('Verde');
