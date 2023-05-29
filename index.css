@@ -2,7 +2,7 @@
 body {
     background: rgba(122, 135, 253, 0.751);
 }
-/*pocision de la imagen*/
+/*pocision de la imagen
 .img {
     position: relative;
     margin-top: 10px;
@@ -37,7 +37,7 @@ body {
     width: 1500px;
     height: 250px;
 }
-
+*/
 .container2 {
     position: relative;
     width: 500px;
